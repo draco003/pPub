@@ -34,6 +34,8 @@ This command will install ppub under "/usr" prefix and configure it to invoke py
 
 Also note, icons and desktop file are installed by default. If you want to install only the program itself, invoke make with "install-bin" target instead of "install".
 
+Important note: FreeBSD users will need to install `www/webkitgtk-3` port to get ppub working.
+
 Configuration
 -------------
 Most features can be configured from inside the application with these exceptions:
